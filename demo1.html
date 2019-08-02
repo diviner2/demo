@@ -9,55 +9,314 @@
 </head>
 
 <body>
+    <div class="a1"></div>
+    <div class="a1"></div>
+    <div class="a1"></div>
     <script>
-        let arr = [12, 123, 2, 3, 6, 4, 8, 2, 4];
-        console.log(Math.max(arr));
-        let brr = 12.3100;
-        console.log(0.2 + 0.1 === 0.3);
-        console.log(Math.pow(2, 53) === Math.pow(2, 53) + 1);
-        function fetch({ body = '', method = 'get', headers = {} }) {
-            console.log(method);
+        // let arr = [12, 123, 2, 3, 6, 4, 8, 2, 4];
+        // console.log(Math.max(arr));
+        // let brr = 12.3100;
+        // console.log(0.2 + 0.1 === 0.3);
+        // console.log(Math.pow(2, 53) === Math.pow(2, 53) + 1);
+        // function fetch({ body = '', method = 'get', headers = {} }) {
+        //     console.log(method);
+        // }
+        // fetch('213', 66, {});
+        // let x = 3;
+        // function yx(y = x){
+        //     console.log(y);1
+        // }
+        // yx();
+
+        // f = v => v;
+        // console.log(f(3));
+        // g = (v,b,n) => { if(v=1){
+        //     return v+b+n
+        // }else{
+        //     return v+b-n;
+        // } };
+        // console.log(g(1,2,3));
+        // const full = ({hi,wourd}) => hi+' '+wourd;
+        // console.log(full);
+
+        // [1,2,3].map(x => x * x);
+        // console.log([1,2,3].map(x => x * x));
+
+        // class star {
+        //     constructor(name,age){
+        //         this.name = name;
+        //         this.age = age;
+        //     }
+        // }
+        // let obj1 = new star('刘德华',20);
+        // console.log(obj1);
+
+        // function demo (name,age){
+        //     this.name = name;
+        //     this.age = age;
+        // }
+        // var obj2 = new demo('刘志辉',30);
+        // var obj3 = new demo("刘",40);
+        // console.log(obj2);
+
+        // console.log(star.prototype.constructor);
+        // console.log(obj3);
+        // let a1 = [0,1];
+        // let a2 = a1.concat();
+        // let a2 = [...a1];
+        // a2[0] = 2;
+        // console.log([...a1,...a2])
+        // console.log(a1,a2);
+
+        // class pow {
+        //     constructor(name,age){
+        //         this.name = name;
+        //         this.age = age;
+        //     }
+        // };
+        // let arr = new pow('sada1',7);
+        // console.log(arr.constructor == pow.prototype.constructor);
+        // let brr = new pow('gasdqww',77);
+        // console.log(brr.prototype == pow.prototype);
+
+        // const duco = (a) => {
+        //     return a; 
+        // };
+
+        // function dueco(x){
+        //     this.x = x;
+        // }
+        // const h = new dueco('刘德华');
+        // console.log(h);
+        // var reverseWords = function (s){
+        //     s = s.split(" ");
+        //     console.log(NaN == NaN);
+        // }
+        // reverseWords("Let's take LeetCode contest");
+        // (() => {
+        //     var x = 1;
+        //     function foo(x, y = function () { x = 2; }) {
+        //         var x = 3;
+        //         y();
+        //         console.log(x);
+        //     }
+
+        //     foo();
+        //     console.log(x);
+        // })();
+
+        // (() => {
+        //     var x = 1;
+        //     function foo(x, y = function () { x = 2; }) {
+        //         x = 3;
+        //         y();
+        //         console.log(x);
+        //     }
+
+        //     foo()
+        //     console.log(x);
+        // })()
+
+        //    function demo (...x){
+        //        let sum = 0;
+        //        for (var i of x){
+        //            sum += i;
+        //        }
+        //        console.log(sum);
+        //    }
+        //    demo(1,2,3,4,5,6);
+        // var f = v => v;
+        // var f = function (v) {
+        //     return v;
+        // }
+        // var f = ({v,a=0,b=1}) => {
+        //     return v + a + b;
+        // }
+        // console.log(f);
+        // [1, 2, 3].map(function (x) {
+        //     return x * x;
+        // });
+        // [1,2,3].map(x => x * x);
+        // var a = arr.sort((...p) => c - d);
+        // console.log([...document.getElementsByClassName('a1')]);
+        // function sa (a,b,c){
+        //     arguments[0] = 1;
+        //     arguments[1] = 2;
+        //     arguments[2] = 3;
+        //     console.log(a,b,c);
+        // }
+        // sa();
+        // var arr = [1,2,3,4];
+        // var arr1 = [2,3,4,5];
+        // var arr2 = [4,5,6,7];
+        // var brr = [...arr,...arr1,...arr2]
+        // console.log(arr,arr1,arr2,brr);
+
+        // console.log([...'我是一']);
+        // class star {
+        //     constructor () {
+        //         console.log('1');
+        //     }
+        // }
+        // let a = '123123';
+        // const star = {
+        //     name : '张三',
+        //     a,
+        //     header(name,a){ console.log('我的名字是：'+ this.name); console.log(a)}
+        // }
+        // star.header(111,'李四');
+        // let obj = {};
+        // obj['a'+'bc'] = 123;
+        // console.log(obj);
+        // let a = 'ab';
+        // let b = 'bc';
+        // let obj = {
+        //     [a+b] : true,
+        //     [a+'b'] : false
+        // };
+        // console.log(obj);
+        // let obj1 = {
+        //     a: '1',
+        //     b: '2',
+        //     fun: function () {
+        //         console.log('张胖')
+        //     }
+        // }
+        // for (i in obj1){
+        //     console.log(i);
+        // }
+
+        // class a1 {
+        //     constructor (){
+        //         console.log('1');
+        //         for (i in obj1){
+        //             console.log(i);
+        //         }
+        //     }
+        // }
+        // a1.constructor();
+        // console.log(Object.keys(obj1));
+        // console.log(Object.getOwnPropertyNames(obj1));
+        // console.log(Object.getOwnPropertySymbols(obj1));
+        // let a = Symbol();
+        // let b = Symbol();
+        // console.log(a == b);
+        // console.log(typeof a);
+        // let c = Symbol('name');
+        // console.log(c);
+        // const proto = {
+        //     foo: 'hello'
+        // };
+        // const obj = {
+        //     foo: 'world',
+        //     find() {
+        //         return super.foo;
+        //     }
+        // }
+
+        // Object.setPrototypeOf(obj, proto);
+        // obj.find() // "hello"
+        // console.log(obj.foo);
+
+
+        // function star (name,age){
+        //     this.name = name;
+        //     this.age = age;
+        // }
+        // var a = new star('刘德华',18);
+        // var b = new star('霍建华',23);
+        // a.__proto__.dd = 'www';
+        // console.log(star.prototype);
+
+        // obj1 = {a:1};
+        // obj2 = {b:1};
+        // Object.assign(obj1,obj2);
+        // console.log(obj1);
+        // console.log(obj2);
+
+        // class pow {
+        //     constructor (x,y) {
+        //         Object.assign(this,{x,y});
+        //     }
+        // }
+        // let arr = new pow.prototype.constructor(1,2);
+        // console.log(arr);
+
+        // Object.assign(SomeClass.prototype,{
+        //     constructor(a1,a2){
+        //         console.log('12312');
+        //     }
+        // })
+
+        // let brr = (obj1,...a) => Object.assign(obj1,...a);
+
+        // class liunian {
+        //     constructor (name,attributes) {
+        //         let a = '喵喵'
+        //         this.name = name;
+        //         this.attributes = attributes;
+        //         (function (){
+        //             let a = '汪汪' 
+        //         })()
+        //     }
+        // }
+        // let gouliunian = new liunian.prototype.constructor('流年','dog');
+        // console.log(gouliunian);
+
+        // let a = Symbol('a');
+        // console.log();
+        // let obj1 = {
+        //     a : 'as'
+        // }
+        // console.log(obj1.a);
+
+        // let a = new Set([1,2,3,4,5,4,4,4]);
+        // console.log(...new Set(a));
+
+        //     a.add('1');
+        //     console.log(a);
+
+        // let a = new Set([1,2,3]);
+        // a.clear();
+
+        //  girl = {
+        //     name : '佳佳',
+        //     age : '21'
+        // }
+        // function doSomething (){
+
+        // };
+        // doSomething.prototype.foo = 'bar';
+        // var doSomeInstancing = new doSomething ();
+        // doSomeInstancing.brr = 'sadasda';
+        // console.log(doSomeInstancing);
+
+        // for (i in doSomeInstancing){
+        // console.log(i);
+        // }
+        // var demo = function () {
+        //     let a = 1;
+        //     return a;
+        // }
+        // console.log(demo());
+        
+        // var a1 = function a (){
+        //     var arr = 1;
+        //     return arr;
+        // }
+        // function b(){
+        //     console.log(a1);
+        // }
+        // b();
+        // for (i in arr){
+        //     console.log(arr[i]);
+        // }
+        let arr = {
+            name : 'miao',
+            age : 20,
+            d : '1'
         }
-        fetch('213', 66, {});
-        let x = 3;
-        function yx(y = x){
-            console.log(y);1
-        }
-        yx();
-
-        f = v => v;
-        console.log(f(3));
-        g = (v,b,n) => { if(v=1){
-            return v+b+n
-        }else{
-            return v+b-n;
-        } };
-        console.log(g(1,2,3));
-        const full = ({hi,wourd}) => hi+' '+wourd;
-        console.log(full);
-
-        [1,2,3].map(x => x * x);
-        console.log([1,2,3].map(x => x * x));
-
-        class star {
-            constructor(name,age){
-                this.name = name;
-                this.age = age;
-            }
-        }
-        let obj1 = new star('刘德华',20);
-        console.log(obj1);
-
-        function demo (name,age){
-            this.name = name;
-            this.age = age;
-        }
-        var obj2 = new demo('刘志辉',30);
-        var obj3 = new demo("刘",40);
-        console.log(obj2);
-
-        console.log(star.prototype.constructor);
-        console.log(obj3)
+        
     </script>
 </body>
 
